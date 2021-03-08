@@ -1,7 +1,6 @@
 
 body{
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin: 0;
 }
 section{
   margin: 80px;
@@ -13,7 +12,7 @@ section{
 
 .parallax {
   /* The image used */
-  background-image: url("img/aetogarv.jpg");
+  background-image: url("../img/aetogarv.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -26,13 +25,12 @@ section{
   height:900px;
   background-color:red;
   font-size: 36px;
-  margin-left: 20px;
-  margin-right: 20px;
+  
 }
 
 .parallax_to{
   /* The image used */
-  background-image: url("img/Kindreams.jpg");
+  background-image: url("../img/autumn.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -45,12 +43,12 @@ section{
   height:900px;
   background-color:red;
   font-size: 36px;
-  margin: 20px;
+  
 }
 
 .parallax_tre{
   /* The image used */
-  background-image: url("img/ninerealms.jpg");
+  background-image: url("../img/summer.jpeg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -63,12 +61,12 @@ section{
   height:900px;
   background-color:red;
   font-size: 36px;
-  margin: 20px;
+  
 }
 
 .parallax_fire{
   /* The image used */
-  background-image: url("img/summer.jpeg");
+  background-image: url("../img/winter.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -81,7 +79,7 @@ section{
   height:900px;
   background-color:red;
   font-size: 36px;
-  margin: 20px;
+  
 
 }
 
@@ -90,8 +88,7 @@ section{
 .navbar {
   overflow: hidden;
   background-color: #333;
-  margin-left: 20px;
-  margin-right: 20px;
+  
 }
 
 .navbar a {
