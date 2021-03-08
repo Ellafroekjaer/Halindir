@@ -1,0 +1,112 @@
+section{
+  margin: 80px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 30px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/img/aetogarv.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:900px;
+  background-color:red;
+  font-size: 36px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.parallax_to{
+  /* The image used */
+  background-image: url("/img/Kindreams.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:900px;
+  background-color:red;
+  font-size: 36px;
+  margin: 20px;
+}
+
+.parallax_tre{
+  /* The image used */
+  background-image: url("/img/ninerealms.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:900px;
+  background-color:red;
+  font-size: 36px;
+  margin: 20px;
+}
+
+.parallax_fire{
+  /* The image used */
+  background-image: url("/img/summer.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:900px;
+  background-color:red;
+  font-size: 36px;
+  margin: 20px;
+
+}
+
+/* Navigationsbar - Menulinje -------------------------- */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 40px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Footer -------------------------- */
