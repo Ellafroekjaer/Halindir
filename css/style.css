@@ -13,7 +13,7 @@ section{
 
 .parallax {
   /* The image used */
-  background-image: url("../img/James_Pierce_Barton_-_Kentucky_Landscape_-_1832_-_Google_Art_Project.jpg");
+  background-image: url("../img/Black_white_beatch");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -31,7 +31,7 @@ section{
 
 .parallax_to{
   /* The image used */
-  background-image: url("../img/Danish_fire.jpg");
+  background-image: url("../img/2_White_castle.jpeg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -49,7 +49,7 @@ section{
 
 .parallax_tre{
   /* The image used */
-  background-image: url("../img/Danish_flag.jpg");
+  background-image: url("../img/3_Danish_flag.jpeg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -67,7 +67,7 @@ section{
 
 .parallax_fire{
   /* The image used */
-  background-image: url("../img/Døende_mand.jpg");
+  background-image: url("../img/4_Blue_beatch.jpeg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -78,7 +78,7 @@ section{
   background-repeat: no-repeat;
   background-size: cover;
   height:900px;
-  background-color:red;
+  /*background-color:red;*/
   font-size: 36px;
   
 
@@ -89,6 +89,8 @@ section{
 .navbar {
   overflow: hidden;
   background-color: #333;
+  position: sticky;
+  top: 0;
   
 }
 
