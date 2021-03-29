@@ -1,83 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Head & meta tags -->
+<!----------------- Head & meta tags ---------------------------->
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/550b3be50a.js" crossorigin="anonymous"></script>
     <title> HALINDIR | VANIARDUR </title>
 </head>
 
 <body>
 
-    <!-- Navigation og menulinje -->
-    <div class="navbar">
-        <a href="#">HOME</a>
-        <div class="dropdown">
-            <button class="dropbtn">ABOUT
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="#">HALINDIR</a>
-                <a href="#">VANIARDUR</a>
-                <a href="#">BUUBDARUB</a>
-            </div>
-        </div>
-        <a href="#">DISCOGRAPHY</a>
-        <a href="#">SHOP</a>
-        <a href="#">CONTACT</a>
+    <div class="container">
+        <header class="header">
+            <nav class="navigation">
+                <button class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </button>
+
+                <div class="bg-cover"></div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#one" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item" id="menu-button">
+                        <p>About us</p>
+
+                        <ul class="undermenu" id="box-submenu">
+                            <li>
+                                <a href="#two" class="sub-menu-item">HALINDIR</a>
+                            </li>
+
+                            <li>
+                                <a href="#two" class="sub-menu-item">VANIARDUR</a>
+                            </li>
+
+                            <li>
+                                <a href="#two" class="sub-menu-item">BUUBDARUB</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tree" class="nav-link">DISCOGRAPHY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#four" class="nav-link">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#five" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
     </div>
 
-    <!-- Parallax -->
-    <div class="parallax"></div>
-    <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae reprehenderit rerum,
-        quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
-        magnam atque fugit..
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam doloribus
-        voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
-        similique, vero unde!
 
-
+    <!-------------------- Parallax i fire dele ------------------------------->
+    <div class="parallax">
+        <div class="hero-text">
+            <p class="titel_banner">Kindreams</p>
+            <p class="kunstnernavn">Halindir</p>
+        </div>
+    </div>
+    <section id="one">
+        <h1>HOME</h1>
+        <p class="text_bokse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae
+            reprehenderit
+            rerum,
+            quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
+            magnam atque fugit..
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam
+            doloribus
+            voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
+            similique, vero unde!</p>
     </section>
 
     <div class="parallax_to"></div>
-    <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae reprehenderit rerum,
-        quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
-        magnam atque fugit..
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam doloribus
-        voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
-        similique, vero unde!
+    <section id="two">
+        <h1>ABOUT</h1>
+        <p class="text_bokse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae
+            reprehenderit
+            rerum,
+            quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
+            magnam atque fugit..
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam
+            doloribus
+            voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
+            similique, vero unde!</p>
     </section>
 
 
     <div class="parallax_tre"></div>
-    <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae reprehenderit rerum,
-        quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
-        magnam atque fugit..
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam doloribus
-        voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
-        similique, vero unde!
-
+    <section id="tree">
+        <h1>DISCOGRAPHY</h1>
+        <p class="text_bokse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae
+            reprehenderit
+            rerum,
+            quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
+            magnam atque fugit..
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam
+            doloribus
+            voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
+            similique, vero unde!</p>
     </section>
 
     <div class="parallax_fire"></div>
-    <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae reprehenderit rerum,
-        quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
-        magnam atque fugit..
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam doloribus
-        voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
-        similique, vero unde!
+    <section id="four">
+        <h1>SHOP</h1>
+        <p class="text_bokse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae
+            reprehenderit
+            rerum,
+            quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
+            magnam atque fugit..
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam
+            doloribus
+            voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
+            similique, vero unde!</p>
+    </section>
+
+    <div class="parallax_fem"></div>
+    <section id="five">
+        <h1>CONTACT</h1>
+        <p class="text_bokse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt at, molestiae
+            reprehenderit
+            rerum,
+            quis praesentium, quibusdam tenetur odit architecto officiis. Tempora sint tenetur debitis doloribus natus
+            magnam atque fugit..
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quam quia omnis dolores laborum, totam
+            doloribus
+            voluptates reprehenderit labore suscipit consequatur temporibus distinctio minus exercitationem ad incidunt
+            similique, vero unde!</p>
+    </section>
+
+    <div class="parallax_footer"></div>
+    <section id="footer">
+
+        <p class="footer_boks">
+            &copy; Copyright 2021 Halindir
+            <br>
+            <a class="links" href="#">
+                <i class="fab fa-bandcamp fa-4x"></i>
+            </a>
+
+            <a class="links" href="#">
+                <i class="fab fa-facebook fa-4x"></i>
+            </a>
+        </p>
 
     </section>
 
-    <script src="" async defer></script>
+
+    <script src="./js/script.js" async defer></script>
 </body>
 
 </html>
